@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+header{
+    background-color: pink;
+    position:sticky;
+    top:0;
+    margin-top:50px;
+    height:50 px;
+    z-index:20;
+}
+.parent{
+    background-color: grey;
+    margin:50px;
+    position:relative;
+}
+.block{
+    width: 100px;
+    height: 250px;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+}
+.red{
+    background-color: red;
+    
+}
